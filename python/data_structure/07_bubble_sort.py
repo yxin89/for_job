@@ -1,5 +1,6 @@
 def double_sort(aList):
     """冒泡排序"""
+    # 一次比较两个元素，如果他们的顺序错误就把他们交换过来
     n = len(aList)
     for i in range(n - 1,0,-1):
         for j in range(i):

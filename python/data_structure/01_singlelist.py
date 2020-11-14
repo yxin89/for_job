@@ -63,7 +63,7 @@ class SingleLinkList(object):
                 count += 1
                 pre = pre.next
 
-            # 当循环推出后
+            # 当循环退出后
             node = Node(item)
             node.next = pre.next
             pre.next = node

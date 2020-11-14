@@ -14,10 +14,13 @@ def merge_sort(alist):
     right = merge_sort(alist[num:])
 
     print('*'*50)
-    print(left)
-    print(right)
+    # print(left)
+    # print(right)
 
-    return merge(left, right)
+    res = merge(left, right)
+    print(res)
+    # return merge(left, right)
+    return res
 
 def merge(left, right):
 
@@ -42,4 +45,6 @@ def merge(left, right):
 alist = [54,26,93,17,77,31,44,55,20]
 print(alist)
 sorted_alist = merge_sort(alist)
+print('*'*50)
+print(alist)
 print(sorted_alist)

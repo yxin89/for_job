@@ -7,9 +7,9 @@ class Node(object):
         self.prev = None
 
 
-# 单向链表
+# 双向链表
 class DoubleLinkList(object):
-    """单链表"""
+    """双向链表"""
     def __init__(self, node=None):
         self.__head = node
 
